@@ -5,7 +5,7 @@ session_start();
 if($_SESSION['rol_usuario']=='ADMINISTRADOR'){
 $txtAgencia = $_GET['agencia'];
 
-$url_base = "http://localhost/JOME/";
+$url_base = "https://systemjome.github.io/";
 $url_fin = "?email=".$_GET['email']."&agencia=".$txtAgencia;
 
 
